@@ -2,10 +2,7 @@
 -- version 5.2.1
 -- https://www.phpmyadmin.net/
 --
--- Host: 127.0.0.1
--- Generation Time: Feb 19, 2024 at 06:12 AM
--- Server version: 10.4.28-MariaDB
--- PHP Version: 8.2.4
+
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 START TRANSACTION;
@@ -47951,7 +47948,7 @@ CREATE TABLE `registration` (
 --
 
 INSERT INTO `registration` (`id`, `course`, `subject`, `fname`, `mname`, `lname`, `gender`, `gname`, `ocp`, `income`, `category`, `pchal`, `nationality`, `mobno`, `emailid`, `country`, `state`, `dist`, `padd`, `cadd`, `board`, `roll`, `pyear`, `sub`, `marks`, `fmarks`, `board1`, `roll1`, `yop1`, `sub1`, `session`, `marks1`, `fmarks1`, `regno`, `regdate`) VALUES
-(1, '3', 'C Language+Operating System+ Data Structure', 'Anuj', '', 'Kumar', 'Male', 'Rahul', 'Service', '500000', 'obc', 'no', 'Indian', '1234567890', 'ak30@gmail.com', '101', '38', 'Ghaziabad', 'A123 XYZ Apartment GHZB UP 201017', 'A123 XYZ Apartment GHZB UP 201017', '10 UP Board', '123456', '2015', '10 PCM', 450, 500, '12 CBSE', '112233', '2017', '12 PCM', '2023-2024', '400', '600', '3982596902', '2024-02-15 16:25:55'),
+(1, '3', 'C Language+Operating System+ Data Structure', 'Krishi', '', 'Kumar', 'Male', 'Rahul', 'Service', '500000', 'obc', 'no', 'Indian', '1234567890', 'ak30@gmail.com', '101', '12', '', 'A123 XYZ Apartment Maninagar', 'A123 XYZ Apartment Maninagar', '10 CBSE Board', '123456', '2015', '10 PCM', 450, 500, '12 CBSE', '112233', '2017', '12 PCM', '2023-2024', '400', '600', '3982596902', '2024-02-15 16:25:55'),
 (3, '4', 'C Language+Software Engineering+ Discrete Mathematics ', 'Rahul', 'Kumar', 'Singh', 'Male', 'Balved Singh', 'Pvt. Job.', '700000', 'general', 'no', 'Indian', '1231231234', 'rahul@gmail.com', '101', '10', 'New Delhi', 'H no 18 Mayur Vihar Phase 1 New Delhi-110092', 'H no 18 Mayur Vihar Phase 1 New Delhi-110092', '10 CBSE', '23213', '2018', 'PCM', 500, 600, '12 CBSE', '325435', '2020', 'PCM', '2023-2024', '486', '500', '3485082443', '2024-02-17 17:00:52'),
 (5, '9', 'History+Geography + Sociology ', 'Garim', '', 'Singh', 'female', 'Ram Singh', 'Govt Job', '700000', 'obc', 'no', 'Indian', '4525631456', 'gr@gmail.com', '101', '10', 'New Delhi', '#122 ABC Apartment Laxmi Nagar New Delhi-110092', '#122 ABC Apartment Laxmi Nagar New Delhi-110092', '10 CBSE', '25534', '2016', 'PCM', 452, 500, '12 CBSE', '46474', '2018', 'PCM', '2023-2024', '567', '650', '6214384819', '2024-02-18 01:56:32');
 
@@ -47979,9 +47976,9 @@ INSERT INTO `session` (`id`, `session`, `postingdate`, `status`) VALUES
 (11, '2020-2021', '2024-02-15', 0),
 (12, '2021-2022', '2024-02-15', 0),
 (13, '2022-2023', '2024-02-15', 0),
-(14, '2023-2024', '2024-02-15', 1),
+(14, '2023-2024', '2024-02-15', 0),
 (15, '2024-2025', '2024-02-15', 0),
-(16, '2025-2026', '2024-02-15', 0),
+(16, '2025-2026', '2024-02-15', 1),
 (17, '2026-2027', '2024-02-15', 0);
 
 -- --------------------------------------------------------
@@ -52194,7 +52191,7 @@ CREATE TABLE `tbl_login` (
 --
 
 INSERT INTO `tbl_login` (`id`, `FullName`, `AdminEmail`, `loginid`, `password`) VALUES
-(1, 'admin', 'admin123@gmail.com', 'admin', 'Test@12345');
+(1, 'admin', 'admin123@gmail.com', 'admin', '123456789');
 
 --
 -- Indexes for dumped tables
